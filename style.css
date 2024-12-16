@@ -498,81 +498,6 @@ h3{
 
 /* ----- CONTACT FORM ----- */
 
-/* .contact-container{
-    font-family: 'Outfit';
-    background-color: #00C9FF ;
-    height: 75vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.contact-left{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
-} */
-
-/* .contact-left-title h2{
-    font-weight: 600;
-    color: #a363aa;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-
-.contact-left-title hr{
-    border: none;
-    width: 120px;
-    height: 5px;
-    background-color: #a363aa;
-    border-radius: 10px;
-    margin-bottom: 20px;
-} */
-
-/* .contact-inputs{
-    width: 400px;
-    height: 50px;
-    border: none;
-    outline: none;
-    padding-left: 25px;
-    font-weight: 500;
-    color: #666;
-    border-radius: 50px;
-}
-
-.contact-left textarea{
-    height: 140px;
-    padding-top: 15px;
-    border-radius: 20px;
-}
-
-.contact-inputs:focus{
-    border: 2px solid #ff994f;
-}
-
-.contact-inputs::placeholder{
-    color: #a9a9a9;
-}
-.contact-left button{
-    display: flex;
-    align-items: center;
-    padding: 15px 30px;
-    font-size: 16px;
-    color: #fff;
-    gap: 10px;
-    border: none;
-    border-radius: 50px;
-    background: linear-gradient(270deg, #ff994f, #fa6d86);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--second-color);
-    color: var(--color-white);
-} */
-
-
 /* Container styling */
 .contact-container {
     display: flex;
@@ -644,12 +569,7 @@ button[type="submit"]:active {
     transform: translateY(0);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .contact-left {
-        padding: 20px;
-    }
-}
+
 
 
 
@@ -790,7 +710,15 @@ footer{
     .about-btn .btn{
     margin: -2px -122px;
     }
+
+    .contact-left {
+        padding: 20px;
     }
+
+    .col{
+        flex-wrap: wrap;
+    }
+}
 
 @media only screen and (max-width: 540px){
     .featured-name{
