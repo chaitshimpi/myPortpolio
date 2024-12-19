@@ -46,7 +46,7 @@
         </div>
         
         <div class="nav-button">
-            <button class="btn"><a href="Chaitanya Resume1.pdf" download>Download CV</a><i class="uil uil-file-alt"></i></button>
+            <button class="btn"><a href="Chaitanya.pdf" download>Download CV</a><i class="uil uil-file-alt"></i></button>
         </div>
         <div class="nav-menu-btn">
             <i class="uil uil-bars" onclick="myMenuFunction()"></i>
@@ -71,7 +71,7 @@
             </div>
             <div class="featured-text-btn">
                 <button class="btn blue-btn">Hire Me</button>
-                <button class="btn"><a href="Chaitanya Resume1.pdf" download>Download CV </a><i class="uil uil-file-alt"></i></button>
+                <button class="btn"><a href="Chaitanya.pdf" download="Chaitanya">Download CV </a><i class="uil uil-file-alt"></i></button>
             </div>
             <div class="social_icons">
                 <div class="icon"><a href="https://www.instagram.com/chaitanyashimpi_/"><i class="uil uil-instagram"></i></a></div>
@@ -105,7 +105,7 @@
                     <p>"I am a backend software developer with expertise in microservices architecture, API development, and deployment. I focus on building scalable and efficient systems that are secure and easy to maintain."
                     </p>
                     <div class="about-btn">
-                        <button class="btn"><a href="Chaitanya Resume1.pdf" download>Download CV </a><i class="uil uil-import"></i></button>
+                        <button class="btn"><a href="Chaitanya.pdf" download>Download CV </a><i class="uil uil-import"></i></button>
                     </div>
                 </div>
             </div>
@@ -265,49 +265,7 @@
     <iframe name="hiddenIframe" style="display:none;"></iframe>
 
 
-<script>
-    // Handle form submission and validation using the form's submit event
-    document.getElementById('contactform').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent default form submission
-        
-        const form = event.target;
-        const name = form.querySelector('[name="name"]').value;
-        const email = form.querySelector('[name="email"]').value;
-        const message = form.querySelector('[name="message"]').value;
 
-        const success = document.getElementById('success');
-        const danger = document.getElementById('danger');
-
-        // Validate if fields are filled
-        if (name === '' || email === '' || message === '') {
-            // Show error message if fields are empty
-            danger.style.display = 'block';
-            success.style.display = 'none';
-        } else {
-            // Show success message
-            success.style.display = 'block';
-            danger.style.display = 'none';
-
-            // Submit the form to the hidden iframe immediately after success
-            form.submit();
-
-            // Hide success message after submission
-            setTimeout(() => {
-                success.style.display = 'none';
-            }, 3000);
-
-            // Reset the form fields after submission (delayed so form submission happens)
-            setTimeout(() => {
-                form.reset();
-            }, 3000);
-        }
-
-        // Hide messages after timeout
-        setTimeout(() => {
-            danger.style.display = 'none';
-        }, 4000);
-    });
-</script>
 
 </body>
 </html>
