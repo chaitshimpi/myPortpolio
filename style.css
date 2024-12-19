@@ -135,7 +135,6 @@ nav{
     padding-inline: 15px;
     margin-inline: 20px;
 }
-
 .nav-menu-btn{
     display: none;
 }
@@ -143,7 +142,6 @@ nav{
     font-size: 28px;
     cursor: pointer;
 }
-
 .active-link{
     position: relative;
     color: var(--first-color);
